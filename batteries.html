@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Flavors</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Load icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<link href="../CSS/flavors.css" rel="stylesheet" />
+
+<body>
+    <div class="header">
+        <h1 class='title'>Frankie's Vape Shop</h1>
+        <!-- search bar -->
+        <form class="example" action="/action_page.php" style="max-width:309px">
+            <input type="text" placeholder="Search.." name="search2">
+            <button type="submit"><i class="fa fa-search"></i></button>
+            <!-- <h4>Log in or Sign up</h4> -->
+        </form>
+        <div class="logout" id="logoutbtn">
+            <button type="button" class="btn btn-dark" onclick='logout()'>Logout
+            </button>
+        </div>
+    </div>
+    <div class="topnav" id="myTopnav">
+        <a href="./index.html">Home</a>
+        <a href="./house.html">House Flavors</a>
+        <a href="./premium.html">Premium Flavors</a>
+        <!-- <a href="./flavors.html">Flavors</a> -->
+        <a href="./starterkits.html">Starter Kits</a>
+        <a href="mods.html">Mods</a>
+        <a href="./tanks.html">Tanks</a>
+        <a class="active" href="./batteries.html">Batteries</a>
+        <button class="icon" onclick="myFunction()">Expand</button>
+        <script>
+            function myFunction() {
+                var x = document.getElementById("myTopnav");
+                if (x.className === "topnav") {
+                    x.className += " responsive";
+                } else {
+                    x.className = "topnav";
+                }
+            }
+
+            function logout() {
+                location.replace('./login.html')
+            }
+        </script>
+    </div>
+</body>
+
+</html>

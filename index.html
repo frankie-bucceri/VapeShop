@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script> -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Frankie's Vape Shop</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Load icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<link href="../CSS/index.css" rel="stylesheet" />
+
+<body>
+    <div class="header">
+        <h1 class='title'>Frankie's Vape Shop</h1>
+
+        <!-- search bar -->
+        <form class="example" action="/action_page.php" style="max-width:309px">
+            <input type="text" placeholder="Search.." name="search2">
+            <button type="submit"><i class="fa fa-search"></i></button>
+            <!-- <h4>Log in or Sign up</h4> -->
+        </form>
+
+        <div class= "logout" id="logoutbtn">
+            <button type="button" class="btn btn-dark" onclick='logout()'>Logout</button> 
+    </div>
+</div>
+    <div class="topnav" id="myTopnav">
+        <a class="active" href="index.html">Home</a></li>
+        <a href="./house.html">House Flavors</a></li>
+        <a href="./premium.html">Premium Flavors</a></li>
+        <!-- <a href="./flavors.html">Flavors</a></li> -->
+        <a href="./starterkits.html">Starter Kits</a></li>
+        <a href="./mods.html">Mods</a></li>
+        <a href="./tanks.html">Tanks</a></li>
+        <a href="./batteries.html">Batteries</a></li>
+        <button class="icon" onclick="myFunction()">Expand</button>
+        <!-- <button class="icon" onclick="myFunction()">collapse</button> -->
+        <!-- </ul> -->
+        <script>
+            function myFunction() {
+                var x = document.getElementById("myTopnav");
+                if (x.className === "topnav") {
+                    x.className += " responsive";
+                } else {
+                    x.className = "topnav";
+                }
+            }
+        </script>
+    </div>
+    <div id='header-comment' stlye='text-align: center;
+    display: center;
+    font-weight: bold;
+    color: darkgray;
+    '>
+    </div>
+
+    <h2>
+        <!-- <center>Take a look at our top sellers!</center> -->
+    </h2>
+    <!--works for now, fix later-->
+
+    <div id='append-here' style='width: 95%;
+    margin: 20px auto 0 auto; 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;'>
+    </div>
+
+    <div id='footer-comment' style='text-align: center;
+        color: darkgray;
+        font-weight: bold;'>
+        <h2>Check out our other pages for equipment and more delicious flavors!</h2>
+    </div>
+</body>
+<footer>
+    <script src="../JS/index.js"></script>
+</footer>
+
+</html>

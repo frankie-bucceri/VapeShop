@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<link href="../HTML/index.html" />
+<style>
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    /* background-color: darkgray; */
+  }
+
+  form {
+    border: 6px solid #f1f1f1
+  }
+
+  input[type=text],
+  input[type=password] {
+    width: 30%;
+    padding: 12px 20px;
+    /* margin-left: 35%; */
+    /* display: inline-block; */
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+
+  button {
+    background-color: rgb(26, 29, 190);
+    color: white;
+    padding: 20px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 20%;
+    margin-left: 5%;
+    justify-content: center;
+    margin-top: 50px;
+
+  }
+
+  button:hover {
+    opacity: 0.8;
+  }
+
+  .cancelbtn {
+    width: 20%;
+    /* padding: 20px 20px; */
+    background-color: #f44336;
+    justify-content: center;
+    display: flex;
+  }
+
+/* username and password */
+  .container {
+    margin-left: 40%;
+    justify-content:center;
+
+  }
+
+  span.psw {
+    margin-left: 10%;
+    padding-top: 10%;
+  }
+
+  /* Change styles for span and cancel button on extra small screens */
+  @media screen and (max-width: 300px) {
+    span.psw {
+      display: block;
+      float: none;
+    }
+
+  }
+</style>
+</head>
+<h1>Frankie's Vape Shop</h1>
+
+<body>
+
+  <div class="container">
+    <label for="uname"><b>Username</b></label><br>
+    <input type="text" id="username" placeholder="Enter Username" name="uname" required><br>
+
+    <label for="psw"><b>Password</b></label><br>
+    <input type="password" id="password" placeholder="Enter Password" name="psw" required><br>
+
+    <!-- <button type="submit">Login</button>  -->
+    <label>
+      <input type="checkbox" checked="checked" name="remember"> Remember me <br>
+    </label>
+    <button id="login-btn">Login</button>
+  </div>
+
+  <div class="container">
+    <button type="button" class="cancelbtn">Cancel</button><br>
+    <span class="psw">Forgot <a href="#">password?</a></span>
+  </div>
+  </form>
+
+  <nav class="top">
+    <div class="dropdownBackground">
+      <span class="arrow"></span>
+    </div>
+
+    <ul class="cool">
+      <li>
+        <a href="#">About Me</a>
+        <div class="dropdown dropdown1">
+          <div class="bio">
+            <!-- <img src="https://logo.clearbit.com/wesbos.com"> -->
+            <p>Frankie's Vape Shop is a small local shop for your vaping needs located in Ohio, orders will be able to
+              be submitted and delivered soon!</p>
+          </div>
+        </div>
+      </li>
+      <li>
+      <li>
+        <a href="#">Other Links</a>
+        <ul class="dropdown dropdown3">
+          <li><a class="button" href="http://twitter.com/wesbos">Twitter</a></li>
+          <li><a class="button" href="http://facebook.com/wesbos.developer">Facebook</a></li>
+          <li><a class="button" href="http://wesbos.com">Blog</a></li>
+        </ul>
+      </li>
+      <style>
+        body {
+          margin: 0;
+          min-height: 100vh;
+          background:
+            linear-gradient(45deg, hsla(340, 100%, 55%, 1) 0%, hsla(340, 100%, 55%, 0) 70%),
+            linear-gradient(135deg, hsla(225, 95%, 50%, 1) 10%, hsla(225, 95%, 50%, 0) 80%),
+            linear-gradient(225deg, hsla(140, 90%, 50%, 1) 10%, hsla(140, 90%, 50%, 0) 80%),
+            linear-gradient(315deg, hsla(35, 95%, 55%, 1) 100%, hsla(35, 95%, 55%, 0) 70%);
+        }
+
+        html {
+          box-sizing: border-box;
+          font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
+        }
+
+        *,
+        *:before,
+        *:after {
+          box-sizing: inherit;
+        }
+
+        nav {
+          position: center;
+          perspective: 200px;
+        }
+
+        .cool>li>a {
+          color: yellow;
+          text-decoration: none;
+          font-size: 20px;
+          background: rgba(0, 0, 0, 0.2);
+          padding: 10px 20px;
+          display: inline-block;
+          margin: 20px;
+          border-radius: 5px;
+        }
+
+        nav ul {
+          list-style: none;
+          margin: 0;
+          padding: 0;
+          display: flex;
+          justify-content: center;
+        }
+
+        .cool>li {
+          position: relative;
+          display: flex;
+          /* justify-content: center; */
+        }
+
+        .dropdown {
+          opacity: 0;
+          position: absolute;
+          overflow: hidden;
+          padding: 20px;
+          top: -20px;
+          border-radius: 2px;
+          transition: all 0.5s;
+          transform: translateY(100px);
+          will-change: opacity;
+          display: none;
+        }
+
+        .trigger-enter .dropdown {
+          display: block;
+        }
+
+        .trigger-enter-active .dropdown {
+          opacity: 1;
+        }
+
+        .dropdownBackground {
+          width: 100px;
+          height: 100px;
+          position: absolute;
+          background: #fff;
+          border-radius: 4px;
+          box-shadow: 0 50px 100px rgba(50, 50, 93, .1), 0 15px 35px rgba(50, 50, 93, .15), 0 5px 15px rgba(0, 0, 0, .1);
+          transition: all 0.3s, opacity 0.1s, transform 0.2s;
+          transform-origin: 50% 0;
+          display: flex;
+          justify-content: center;
+          opacity: 0;
+        }
+
+        .dropdownBackground.open {
+          opacity: 1;
+        }
+
+        .arrow {
+          position: absolute;
+          width: 20px;
+          height: 20px;
+          display: block;
+          background: white;
+          transform: translateY(-50%) rotate(45deg);
+        }
+
+        .bio {
+          min-width: 500px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          line-height: 1.7;
+        }
+
+        .bio img {
+          float: left;
+          margin-right: 20px;
+        }
+
+        .courses {
+          min-width: 300px;
+        }
+
+        .courses li {
+          padding: 10px 0;
+          display: block;
+          border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+        }
+
+        .dropdown a {
+          text-decoration: none;
+          color: #ffc600;
+        }
+
+        a.button {
+          background: black;
+          display: block;
+          padding: 10px;
+          color: white;
+          margin-bottom: 10px;
+        }
+
+        .button[href*=twitter] {
+          background: #019FE9;
+        }
+
+        .button[href*=facebook] {
+          background: #3B5998;
+        }
+
+        .button[href*=courses] {
+          background: #ffc600;
+        }
+      </style>
+      <script>
+        const triggers = document.querySelectorAll('.cool > li');
+        const background = document.querySelector('.dropdownBackground');
+        const nav = document.querySelector('.top');
+
+        function handleEnter() {
+          this.classList.add('trigger-enter');
+          setTimeout(() => this.classList.contains('trigger-enter') && this.classList.add('trigger-enter-active'), 150);
+          background.classList.add('open');
+
+          const dropdown = this.querySelector('.dropdown');
+          const dropdownCoords = dropdown.getBoundingClientRect();
+          const navCoords = nav.getBoundingClientRect();
+
+          const coords = {
+            height: dropdownCoords.height,
+            width: dropdownCoords.width,
+            top: dropdownCoords.top - navCoords.top,
+            left: dropdownCoords.left - navCoords.left
+          };
+
+          background.style.setProperty('width', `${coords.width}px`);
+          background.style.setProperty('height', `${coords.height}px`);
+          background.style.setProperty('transform', `translate(${coords.left}px, ${coords.top}px)`);
+        }
+
+        function handleLeave() {
+          this.classList.remove('trigger-enter', 'trigger-enter-active');
+          background.classList.remove('open');
+        }
+
+        triggers.forEach(trigger => trigger.addEventListener('mouseenter', handleEnter));
+        triggers.forEach(trigger => trigger.addEventListener('mouseleave', handleLeave));
+      </script>
+
+
+</body>
+
+</html>
+
+<script>
+  let db = [{
+      uname: "Frankie",
+      pword: "123"
+    },
+    {
+      uname: "Babyjay",
+      pword: "test123"
+    }
+  ]
+
+  function login(evt) {
+    evt.preventDefault()
+    const uname = document.getElementById("username").value
+    const password = document.getElementById("password").value
+
+    const user = db.find(function (u) {
+      if (u.uname === uname && u.pword === password) {
+        return true;
+      }
+      return false;
+    })
+
+    if (user) {
+      window.location.href = "./index.html"
+    } else {
+      window.alert("username or password is incorrect.")
+    }
+  }
+
+  document.getElementById("login-btn").addEventListener("click", login)
+</script>
