@@ -1,0 +1,32 @@
+[{
+    "batteries": "Sony Single",
+    "img": "../Images/single.png"
+},
+{
+    "batteries": "Sony 2-Pack",
+    "img": "../Images/2pack.jpg"
+},
+{
+    "batteries": "High Drain 2-pack",
+    "img": "../Images/HD2pack.jpg"
+},
+{
+    "batteries": "Sony 12-pack",
+    "img": "../Images/12pack.jpg"
+},
+{
+    "batteries": "NiteCore i2",
+    "img": "../Images/Nitecorei2.jpg"
+},
+{
+    "batteries": "Nitecore Q4",
+    "img": "../Images/quadcharger.jpg"
+},
+{
+    "batteries": "Davinci",
+    "img": "../Images/davinci.jpg"
+},
+{
+    "batteries": "Single Cell",
+    "img": "../Images/singlecharger.jpg"
+}]

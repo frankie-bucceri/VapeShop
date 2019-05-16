@@ -1,0 +1,33 @@
+[{
+    "tank": "TFV12 Prince",
+    "img": "../Images/TFV12Prince.jpg"
+},
+{
+    "tank": "TFV8 Baby Beast",
+    "img": "../Images/TFV8BabyBeast.jpg"
+},
+{
+    "tank": "Horizon Falcon.jpg",
+    "img": "../Images/HorizonFalcon.jpg"
+},
+{
+    "tank": "Limitless Hextron",
+    "img": "../Images/Hextron.jpg"
+},
+{
+    "tank": "YiXi Gemini Subohm",
+    "img": "../Images/YixiGemini.jpg"
+},
+{
+    "tank": "UWell Crown 3",
+    "img": "../Images/Crown3.jpg"
+},
+{
+    "tank": "Snow Wolf",
+    "img": "../Images/SnowWolf.jpg"
+},
+{
+    "tank": "Horizon Arco",
+    "img" : "../Images/HorizonArco.jpg"
+}
+]

@@ -1,0 +1,57 @@
+[{
+    "flavor": "Blue Razz",
+    "img": "../Images/BlueRazz.jpg"
+}, {
+    "flavor": "Green Apple",
+    "img": "../Images/GreenApple.jpg"
+}, {
+    "flavor": "Cinnamon Roll",
+    "img": "../Images/CinnamonRoll.jpg"
+}, {
+    "flavor": "Watermelon",
+    "img": "../Images/Watermelon.jpg"
+}, {
+    "flavor": "Smok Procolor",
+    "img": "../Images/smokProcolor.jpg"
+}, {
+    "flavor": "Smok Alien",
+    "img": "../Images/smokAlien.jpg"
+}, {
+    "flavor": "Smok Innovation",
+    "img": "../Images/smokInnovation.jpg"
+}, {
+    "flavor": "Smok Mag Grip",
+    "img": "../Images/smokMagGrip.jpg"
+},
+{
+    "flavor": "TFV12 Prince",
+    "img": "../Images/TFV12Prince.jpg"
+},
+{
+    "flavor": "Horizon Falcon",
+    "img": "../Images/horizonFalcon.jpg"
+},
+{
+    "flavor": "Limitless Hextron",
+    "img": "../Images/Hextron.jpg"
+},
+{
+    "flavor": "Uwell Crown 3",
+    "img": "../Images/Crown3.jpg"
+},
+{
+    "flavor": "Sony 2-pack",
+    "img": "../images/2pack.jpg"
+},
+{
+    "flavor": "High Drain 2-pack",
+    "img": "../Images/HD2pack.jpg"
+},
+{
+    "flavor": "NiteCore i2",
+    "img": "../Images/Nitecorei2.jpg"
+},
+{
+    "flavor": "Nitecore Q4",
+    "img": "../Images/quadcharger.jpg"
+}]

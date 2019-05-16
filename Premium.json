@@ -1,0 +1,30 @@
+[{
+    "premium": "Blue Razz",
+    "img": "../Images/BlueRazz.jpg"
+}, {
+    "premium": "Green Apple",
+    "img": "../Images/GreenApple.jpg"
+}, {
+    "premium": "Energy Drink",
+    "img": "../Images/EnergyDrink.jpg"
+},
+{
+    "premium": "Pink Lemonade",
+    "img": "../Images/PinkLemonade.jpg"
+},
+{
+    "premium": "Menthol",
+    "img": "../Images/Menthol.jpg"
+},
+{
+    "premium": "Pineapple",
+    "img": "../Images/Pineapple.jpg"
+},
+{
+    "premium": "Peach",
+    "img": "../Images/Peach.jpg"
+},
+{
+    "premium": "Waterelon",
+    "img": "../Images/Watermelon.jpg"
+}]

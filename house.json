@@ -1,0 +1,11 @@
+[{
+    "house": "Blue Razz",
+    "img": "../Images/BlueRazz.jpg"
+}, {
+    "house": "Green Apple",
+    "img": "../Images/GreenApple.jpg"
+},
+{
+    "house": "Cinnamon Roll",
+    "img": "../Images/Cinnamonroll.jpg"
+}]

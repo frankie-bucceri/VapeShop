@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Flavors</title>
+    <title>Starter Kits</title>
     <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- Load icon library -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -38,7 +38,26 @@
         <a href="./tanks.html">Tanks</a>
         <a href="./batteries.html">Batteries</a>
         <button class="icon" onclick="myFunction()">Expand</button>
-    </div>
-    <div class = "logout" id="logoutbtn">
+        <script>
+                function myFunction() {
+                    var x = document.getElementById("myTopnav");
+                    if (x.className === "topnav") {
+                        x.className += " responsive";
+                    } else {
+                        x.className = "topnav";
+                    }
+                }
+            </script>
+        </div>
+        <div id='append-here' style='width: 95%;
+                margin: 20px auto 0 auto; 
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                flex-wrap: wrap;'>
+        </div>
 </body>
+<footer>
+    <script src= "../JS/starterkits.js"></script>
+</footer>
 </html>
