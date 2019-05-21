@@ -1,16 +1,16 @@
-const createCards = (flavorsArr) => {
+const createCards = (premiumArr) => {
     const parent = document.getElementById('append-here');
 
-    flavorsArr.forEach((flavorObj) => {
+    premiumArr.forEach((premiumObj) => {
         const container = document.createElement('div');
         container.classList.add('testStuff');
-        container.innerText = flavorObj.flavor
+        container.innerText = premiumObj.premium
 
-        const flavorImg = document.createElement('img');
-        flavorImg.src = flavorObj.img;
-        flavorImg.classList.add('test-image');
+        const premiumImg = document.createElement('img');
+        premiumImg.src = premiumObj.img;
+        premiumImg.classList.add('test-image');
 
-        container.appendChild(flavorImg);
+        container.appendChild(premiumImg);
 
         parent.appendChild(container)
     })
@@ -21,8 +21,8 @@ const createCards = (flavorsArr) => {
 $.ajax({
     url: 'http://localhost:8001/premium',
     method: 'GET',
-    success: function (flavors) {
-        createCards(flavors);
+    success: function (premium) {
+        createCards(premium);
     }
 })
 
