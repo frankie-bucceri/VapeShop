@@ -1,0 +1,389 @@
+{
+    "batteries": [{
+            "name": "Sony Single",
+            "img": "../Images/single.png",
+            "sku": 100
+        },
+        {
+            "name": "Sony 2-Pack",
+            "img": "../Images/2pack.jpg",
+            "sku": 101
+        },
+        {
+            "name": "High Drain 2-pack",
+            "img": "../Images/HD2pack.jpg",
+            "sku": 102
+        },
+        {
+            "name": "Sony 12-pack",
+            "img": "../Images/12pack.jpg",
+            "sku": 103
+        },
+        {
+            "name": "NiteCore i2",
+            "img": "../Images/Nitecorei2.jpg",
+            "sku": 104
+        },
+        {
+            "name": "Nitecore Q4",
+            "img": "../Images/quadcharger.jpg",
+            "sku": 105
+        },
+        {
+            "name": "Davinci",
+            "img": "../Images/davinci.jpg",
+            "sku": 106
+        },
+        {
+            "name": "Single Cell",
+            "img": "../Images/singlecharger.jpg",
+            "sku": 106
+
+        }
+    ],
+    "flavors": [{
+            "name": "Dragon Fruit",
+            "img": "../Images/dragonfruit.jpg",
+            "sku": 200
+        },
+        {
+            "name": "Sour Candy",
+            "img": "../Images/sourcandy.jpg",
+            "sku": 201
+        },
+        {
+            "name": "Cinnamon Roll",
+            "img": "../Images/CinnamonRoll.jpg",
+            "sku": 202
+        },
+        {
+            "name": "Watermelon",
+            "img": "../Images/Watermelon.jpg",
+            "sku": 203
+        },
+        {
+            "name": "Smok Procolor",
+            "img": "../Images/smokProcolor.jpg",
+            "sku": 204
+        },
+        {
+            "name": "Smok Alien",
+            "img": "../Images/smokAlien.jpg",
+            "sku": 205
+        },
+        {
+            "name": "Smok Innovation",
+            "img": "../Images/smokInnovation.jpg",
+            "sku": 206
+        },
+        {
+            "name": "Smok Mag Grip",
+            "img": "../Images/smokMagGrip.jpg",
+            "sku": 207
+        },
+        {
+            "name": "TFV12 Prince",
+            "img": "../Images/TFV12Prince.jpg",
+            "sku": 208
+        },
+        {
+            "name": "Horizon Falcon",
+            "img": "../Images/horizonFalcon.jpg",
+            "sku": 209
+        },
+        {
+            "name": "Limitless Hextron",
+            "img": "../Images/Hextron.jpg",
+            "sku": 210
+        },
+        {
+            "name": "Uwell Crown 3",
+            "img": "../Images/Crown3.jpg",
+            "sku": 211
+        },
+        {
+            "name": "Sony 2-pack",
+            "img": "../images/2pack.jpg",
+            "sku": 212
+        },
+        {
+            "name": "High Drain 2-pack",
+            "img": "../Images/HD2pack.jpg",
+            "sku": 213
+        },
+        {
+            "name": "NiteCore i2",
+            "img": "../Images/Nitecorei2.jpg",
+            "sku": 214
+        },
+        {
+            "name": "Nitecore Q4",
+            "img": "../Images/quadcharger.jpg",
+            "sku": 215
+        }
+    ],
+    "house": [{
+            "name": "Blue Razz",
+            "img": "../Images/BlueRazz.jpg",
+            "sku": 300
+        }, {
+            "name": "Green Apple",
+            "img": "../Images/GreenApple.jpg",
+            "sku": 301
+        },
+        {
+            "name": "Cinnamon Roll",
+            "img": "../Images/Cinnamonroll.jpg",
+            "sku": 302
+        },
+        {
+            "name": "Frosted Cake",
+            "img": "../Images/frostedcake.jpg",
+            "sku": 303
+        },
+        {
+            "name": "fruit Loops",
+            "img": "../Images/fruitloops.jpg",
+            "sku": 304
+        },
+        {
+            "name": "Gummy Bears",
+            "img": "../Images/gummybear.jpg",
+            "sku": 305
+        },
+        {
+            "name": "Mandarin",
+            "img": "../Images/mandarin.jpg",
+            "sku": 306
+        },
+        {
+            "name": "Mango",
+            "img": "../Images/mango.jpg",
+            "sku": 307
+        },
+        {
+            "name": "Orange",
+            "img": "../Images/orange.jpg",
+            "sku": 308
+        },
+        {
+            "name": "Passion Fruit",
+            "img": "../Images/passionfruit.jpg",
+            "sku": 309
+        },
+        {
+            "name": "Licorice",
+            "img": "../Images/licorice.jpg",
+            "sku": 310
+        },
+        {
+            "name": "Red Velvel Cake",
+            "img": "../Images/redvelvet.jpg",
+            "sku": 311
+        },
+        {
+            "name": "Strawberry",
+            "img": "../Images/strawberry.jpg",
+            "sku": 312
+        },
+        {
+            "name": "Swedish Fish",
+            "img": "../Images/swedishfish.jpg",
+            "sku": 313
+        },
+        {
+            "name": "Sweettart",
+            "img": "../Images/sweettart.jpg",
+            "sku": 314
+        },
+        {
+            "name": "Unicorn Vomit",
+            "img": "../Images/unicornbarf.jpg",
+            "sku": 315
+        }
+    ],
+    "mods": [{
+            "name": "Smok Procolor",
+            "img": "../Images/smokProcolor.jpg",
+            "sku": 401
+        },
+        {
+            "name": "Smok Alien",
+            "img": "../Images/SmokAlien.jpg",
+            "sku": 402
+        },
+        {
+            "name": "Smok Innovation",
+            "img": "../Images/SmokInnovation.jpg",
+            "sku": 403
+        },
+        {
+            "name": "Smok Mag Grip",
+            "img": "../Images/SmokMagGrip.jpg",
+            "sku": 404
+        },
+        {
+            "name": "Smok G-Priv",
+            "img": "../Images/SmokG-Priv.jpg",
+            "sku": 405
+        },
+        {
+            "name": "Kangertech Subbox Mini",
+            "img": "../Images/KangSubboxMini.jpg",
+            "sku": 406
+        },
+        {
+            "name": "Kangertech Ranger",
+            "img": "../Images/KangRanger.jpg",
+            "sku": 407
+        },
+        {
+            "name": "Kangertech Spider",
+            "img": "../Images/KangSpider.jpg",
+            "sku": 408
+
+        }
+    ],
+    "premium": [{
+            "name": "Blue Razz",
+            "img": "../Images/BlueRazz.jpg",
+            "sku": 501
+        },
+        {
+            "name": "Green Apple",
+            "img": "../Images/GreenApple.jpg",
+            "sku": 502
+        },
+        {
+            "name": "Energy Drink",
+            "img": "../Images/EnergyDrink.jpg",
+            "sku": 503
+        },
+        {
+            "name": "Pink Lemonade",
+            "img": "../Images/PinkLemonade.jpg",
+            "sku": 504
+        },
+        {
+            "name": "Menthol",
+            "img": "../Images/Menthol.jpg",
+            "sku": 505
+        },
+        {
+            "name": "Pineapple",
+            "img": "../Images/Pineapple.jpg",
+            "sku": 506
+        },
+        {
+            "name": "Peach",
+            "img": "../Images/Peach.jpg",
+            "sku": 507
+        },
+        {
+            "name": "Waterelon",
+            "img": "../Images/Watermelon.jpg",
+            "sku": 508
+        },
+        {
+            "name": "Blueberry Candy",
+            "img": "../Images/Blueberrycandy.jpg",
+            "sku": 509
+        },
+        {
+            "name": "Candy Watermelon",
+            "img": "../Images/candywatermelon.jpg",
+            "sku": 510
+        },
+        {
+            "name": "Dragon Fruit",
+            "img": "../Images/dragonfruit.jpg",
+            "sku": 511
+        },
+        {
+            "name": "Lemon Lime",
+            "img": "../Images/lemonlime.jpg",
+            "sku": 512
+        },
+        {
+            "name": "Lime",
+            "img": "../Images/lime.jpg",
+            "sku": 513
+        },
+        {
+            "name": "Nectar of the Gods",
+            "img": "../Images/nectar.jpg",
+            "sku": 514
+        }, {
+            "name": "Raspberry",
+            "img": "../Images/raspberry.jpg",
+            "sku": 516
+        },
+        {
+            "name": "Sour Candy",
+            "img": "../Images/sourcandy.jpg",
+            "sku": 517
+        }
+    ],
+    "starterkits": [{
+            "name": "Veco Solo",
+            "img": "../Images/starter1.jpg",
+            "sku": 601
+        },
+        {
+            "name": "Smok Pen 22",
+            "img": "../Images/starter2.jpg",
+            "sku": 602
+        },
+        {
+            "name": "Smok Nord",
+            "img": "../Images/starter3.jpg",
+            "sku": 603
+        },
+        {
+            "name": "Smok Novo",
+            "img": "../Images/smoknovo.jpg",
+            "sku": 604
+        }
+    ],
+    "tanks": [{
+            "name": "TFV12 Prince",
+            "img": "../Images/TFV12Prince.jpg",
+            "sku": 701
+        },
+        {
+            "name": "TFV8 Baby Beast",
+            "img": "../Images/TFV8BabyBeast.jpg",
+            "sku": 702
+        },
+        {
+            "name": "Horizon Falcon.jpg",
+            "img": "../Images/HorizonFalcon.jpg",
+            "sku": 703
+        },
+        {
+            "name": "Limitless Hextron",
+            "img": "../Images/Hextron.jpg",
+            "sku": 704
+        },
+        {
+            "name": "YiXi Gemini Subohm",
+            "img": "../Images/YixiGemini.jpg",
+            "sku": 705
+        },
+        {
+            "name": "UWell Crown 3",
+            "img": "../Images/Crown3.jpg",
+            "sku": 706
+        },
+        {
+            "name": "Snow Wolf",
+            "img": "../Images/SnowWolf.jpg",
+            "sku": 707
+        },
+        {
+            "name": "Horizon Arco",
+            "img": "../Images/HorizonArco.jpg",
+            "sku": 708
+        }
+    ]
+}

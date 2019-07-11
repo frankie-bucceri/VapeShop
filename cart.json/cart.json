@@ -1,0 +1,16 @@
+[
+    {
+        "category": "tanks",
+        "name": "250ml",
+        "image": "...",
+        "sku": 3,
+        "quantity": 2
+    },
+    {
+        "category": "flavor",
+        "name": "Shelby GT",
+        "image": "...",
+        "sku": 2,
+        "quantity": 1
+    }
+]

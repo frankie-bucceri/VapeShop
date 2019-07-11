@@ -12,8 +12,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- Load icon library -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap" rel="stylesheet">
+    <link href="../CSS/index.css" rel="stylesheet" />
 </head>
-<link href="../CSS/batteries.css" rel="stylesheet" />
 
 <body>
     <div class="header">
@@ -33,11 +34,11 @@
         <a href="./index.html">Home</a>
         <a href="./house.html">House Flavors</a>
         <a href="./premium.html">Premium Flavors</a>
-        <!-- <a href="./flavors.html">Flavors</a> -->
         <a href="./starterkits.html">Starter Kits</a>
         <a href="mods.html">Mods</a>
         <a href="./tanks.html">Tanks</a>
-        <a class="active" href="./batteries.html">Batteries</a>
+        <a class="active" href="#batteries">Batteries</a>
+        <a href="./cart.html">Cart</a></li>
         <button class="icon" onclick="myFunction()">Expand</button>
         <script>
             function myFunction() {
@@ -48,10 +49,6 @@
                     x.className = "topnav";
                 }
             }
-
-            function logout() {
-                location.replace('./login.html')
-            }
         </script>
     </div>
     <div id='append-here' style='width: 95%;
@@ -60,9 +57,11 @@
                 flex-direction: row;
                 justify-content: center;
                 flex-wrap: wrap;'>
-        </div>
+    </div>
 </body>
 <footer>
-    <script src= "../JS/batteries.js"></script>
+    <script src="../JS/cartFunctions.js"></script>
+    <script src="../JS/batteries.js"></script>
 </footer>
+
 </html>

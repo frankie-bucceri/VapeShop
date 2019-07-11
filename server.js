@@ -20,6 +20,22 @@ app.use(bodyParser.json());
 //read mods database
 let mods = [];
 
+// database variable
+let db = {};
+
+// read in the full database
+fs.readFile('./full_db.json', 'utf8', (err, data) => {
+    if (err) {
+        throw err;
+    }
+    db = JSON.parse(data);
+
+    
+    let dbSummary = Object.keys(db).map(tableName => `${tableName}: ${db[tableName].length} items`)
+    console.log(dbSummary)
+})
+
+
 fs.readFile('./mods_db.json', 'utf8', (err, data) => {
     if (err) {
         console.log(err);
@@ -135,37 +151,37 @@ app.get('/test', function (req, res) {
 //request db
 //flavors
 app.get('/flavors', (req, res) => {
-    res.json(flavors);
+    res.json(db.flavors);
 })
 
 //mods
 app.get('/mods', (req, res) => {
-    res.json(mods);
+    res.json(db.mods);
 })
 
 //tanks
 app.get('/tanks', (req, res) => {
-    res.json(tanks);
+    res.json(db.tanks);
 })
 
 //Premium flavors
 app.get('/premium', (req, res) => {
-    res.json(premium);
+    res.json(db.premium);
 })
 
 //house flavors
 app.get('/house', (req, res) => {
-    res.json(house);
+    res.json(db.house);
 })
 
 //starter kits
 app.get('/starterkits', (req, res) => {
-    res.json(starterkits);
+    res.json(db.starterkits);
 })
 
 //batteries
 app.get('/batteries', (req, res) => {
-    res.json(batteries);
+    res.json(db.batteries);
 })
 
 app.get('/:filename', (req, res, next) => {

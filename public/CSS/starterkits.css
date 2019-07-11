@@ -5,10 +5,12 @@ body {
 
 body {
     min-height: 100vh;
-    background-image: url(./smoke.jpg);
+    /* background-image: url(./smoke.jpg); */
+    background-color: rgb(48,48,48);
     background-size: cover;
     background-color: black;
     font-family: arial;
+    background-attachment: fixed;
 }
 
 .header {
@@ -21,7 +23,7 @@ body {
 
 .title {
     color: rgb(228, 10, 28);
-    font-family: thin;
+    font-family: 'indie flower', cursive;
     margin: 0;
 }
 

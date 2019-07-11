@@ -1,10 +1,12 @@
 [{
     "premium": "Blue Razz",
     "img": "../Images/BlueRazz.jpg"
-}, {
+},
+{
     "premium": "Green Apple",
     "img": "../Images/GreenApple.jpg"
-}, {
+},
+{
     "premium": "Energy Drink",
     "img": "../Images/EnergyDrink.jpg"
 },
@@ -27,4 +29,35 @@
 {
     "premium": "Waterelon",
     "img": "../Images/Watermelon.jpg"
-}]
+},
+{
+    "premium": "Blueberry Candy",
+    "img": "../Images/Blueberrycandy.jpg"
+},
+{
+    "premium": "Candy Watermelon",
+    "img": "../Images/candywatermelon.jpg"
+},
+{
+    "premium": "Dragon Fruit",
+    "img": "../Images/dragonfruit.jpg"
+},
+{
+    "premium": "Lemon Lime",
+    "img": "../Images/lemonlime.jpg"
+},
+{
+    "premium": "Lime",
+    "img": "../Images/lime.jpg"
+},
+{
+    "premium": "Nectar of the Gods",
+    "img": "../Images/nectar.jpg"
+}, {
+    "premium": "Raspberry",
+    "img": "../Images/raspberry.jpg"
+},
+{   "premium": "Sour Candy",
+    "img": "../Images/sourcandy.jpg"
+}
+]

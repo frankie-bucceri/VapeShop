@@ -22,7 +22,7 @@ body {
 
 .title {
     color: rgb(228, 10, 28);
-    font-family: thin;
+    font-family: 'indie flower', cursive;
     margin: 0;
 }
 
@@ -37,7 +37,7 @@ body {
 .topnav {
     font-stretch: wider;
     width: 100%;
-    height: 100%;
+    height: 10%;
     margin: 0;
     padding: 0;
     text-align: center;
@@ -160,7 +160,7 @@ form.example::after {
     height: 300px;
     width: 250px; 
     display: flex; 
-    flex-direction: row; 
+    flex-direction: column; 
     justify-content: center; 
     align-items: bottom;
     vertical-align: bottom; 

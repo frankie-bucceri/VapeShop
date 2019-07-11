@@ -11,6 +11,24 @@ const createCards = (tanksArr) => {
         tankImg.classList.add('test-image');
 
         container.appendChild(tankImg);
+        const addToCartBtn = document.createElement('button');
+        addToCartBtn.innerText = 'Add to cart';
+        addToCartBtn.onclick = () => addToCart(tankObj)
+
+        const actionBtnContainer = document.createElement('div');
+        actionBtnContainer.style = 'width: 100%; display: flex; flex-driection: row; justify-content: space-around; padding-top: 5px; padding-bottom: 5px; background-color: rgba(0,0,0,0.4);';
+
+        const removeFromCartBtn = document.createElement('button');
+        removeFromCartBtn.innerText = 'Remove';
+        removeFromCartBtn.onclick = () => removeFromCart(tankObj)
+
+        const actionBtnContainer2 = document.createElement('div');
+        actionBtnContainer2.style = 'width: 100%; display: flex; flex-driection: row; justify-content: space-around; padding-top: 5px; padding-bottom: 5px; background-color: rgba(0,0,0,0.4);';
+
+        actionBtnContainer.appendChild(addToCartBtn)
+        actionBtnContainer.appendChild(removeFromCartBtn)
+
+        container.appendChild(actionBtnContainer);
 
         parent.appendChild(container)
     })

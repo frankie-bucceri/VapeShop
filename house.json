@@ -8,4 +8,56 @@
 {
     "house": "Cinnamon Roll",
     "img": "../Images/Cinnamonroll.jpg"
+},
+{
+    "house": "Frosted Cake",
+    "img": "../Images/frostedcake.jpg"
+},
+{
+    "house": "fruit Loops",
+    "img": "../Images/fruitloops.jpg"
+},
+{
+    "house": "Gummy Bears",
+    "img": "../Images/gummybear.jpg"
+},
+{
+    "house": "Mandarin",
+    "img": "../Images/mandarin.jpg"
+},
+{
+    "house": "Mango",
+    "img": "../Images/mango.jpg"
+},
+{
+    "house": "Orange",
+    "img": "../Images/orange.jpg"
+},
+{
+    "house": "Passion Fruit",
+    "img": "../Images/passionfruit.jpg"
+},
+{
+    "house": "Licorice",
+    "img": "../Images/licorice.jpg"
+},
+{
+    "house": "Red Velvel Cake",
+    "img": "../Images/redvelvet.jpg"
+},
+{
+    "house": "Strawberry",
+    "img": "../Images/strawberry.jpg"
+},
+{
+    "house": "Swedish Fish",
+    "img": "../Images/swedishfish.jpg"
+},
+{
+    "house": "Sweettart",
+    "img": "../Images/sweettart.jpg"
+},
+{
+    "house": "Unicorn Vomit",
+    "img": "../Images/unicornbarf.jpg"
 }]

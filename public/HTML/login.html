@@ -4,26 +4,38 @@
 <head>
   <title>Frankie's Vape Shop</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap" rel="stylesheet">
+  <link href="../HTML/index.html" />
 </head>
-<link href="../HTML/index.html" />
 <style>
   body {
     font-family: Arial, Helvetica, sans-serif;
-    /* background-color: darkgray; */
   }
 
-  form {
-    border: 6px solid #f1f1f1
+  .header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+  .title {
+    color: rgb(228, 10, 28);
+    font-family: 'indie flower', cursive;
   }
 
   input[type=text],
   input[type=password] {
     width: 30%;
     padding: 12px 20px;
-    /* margin-left: 35%; */
-    /* display: inline-block; */
     border: 1px solid #ccc;
     box-sizing: border-box;
+  }
+
+  .title {
+    color: rgb(228, 10, 28);
+    font-family: 'indie flower', cursive;
   }
 
   button {
@@ -74,7 +86,9 @@
   }
 </style>
 </head>
-<h1>Frankie's Vape Shop</h1>
+<div class="header">
+  <h1>Frankie's Vape Shop</h1>
+</div>
 
 <body>
 
@@ -108,7 +122,6 @@
         <a href="#">About Me</a>
         <div class="dropdown dropdown1">
           <div class="bio">
-            <!-- <img src="https://logo.clearbit.com/wesbos.com"> -->
             <p>Frankie's Vape Shop is a small local shop for your vaping needs located in Ohio, orders will be able to
               be submitted and delivered soon!</p>
           </div>
@@ -126,7 +139,7 @@
       <style>
         body {
           margin: 0;
-          min-height: 100vh;
+          min-height: 200vh;
           background:
             linear-gradient(45deg, hsla(340, 100%, 55%, 1) 0%, hsla(340, 100%, 55%, 0) 70%),
             linear-gradient(135deg, hsla(225, 95%, 50%, 1) 10%, hsla(225, 95%, 50%, 0) 80%),
@@ -138,13 +151,6 @@
           box-sizing: border-box;
           font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
         }
-
-        /* gradient restarts below links */
-        /* *,
-        *:before,
-        *:after {
-          box-sizing: inherit;
-        } */
 
         h1 {
           color: rgb(41, 42, 43);
@@ -179,7 +185,6 @@
         .cool>li {
           position: relative;
           display: flex;
-          /* justify-content: center; */
         }
 
         .dropdown {
@@ -312,8 +317,6 @@
         triggers.forEach(trigger => trigger.addEventListener('mouseenter', handleEnter));
         triggers.forEach(trigger => trigger.addEventListener('mouseleave', handleLeave));
       </script>
-
-
 </body>
 
 </html>
